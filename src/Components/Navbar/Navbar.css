@@ -1,0 +1,44 @@
+/* Navbar.css */
+.nav {
+    display: flex;
+    justify-content: space-between; /* Align logo and menu */
+    align-items: center;            /* Vertically center items */
+    position: fixed;                /* Fix the navbar at the top */
+    top: 0;                         /* Positions at the top */
+    left: 0;                        /* Align to the left */
+    right: 0;                       /* Align to the right */
+    padding: 10px 120px;           /* Add padding */
+
+    color: black;                  /* Text color */
+    z-index: 1000;                 /* Ensure it’s on top */
+}
+
+.nav-logo {
+    font-family: 'Parisienne', sans-serif;
+    font-size: 42px;
+    font-weight: 500;
+    color: black;
+    
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 18px;
+    gap: 40px; /* Space between menu items */
+}
+
+.nav-contact {
+    border-radius: 50px;
+    padding: 10px 38px;
+    background: black;
+    color: white;
+    cursor: pointer; /* Pointer cursor for interactivity */
+}
+
+/* Optional hover effects */
+.nav-menu li:hover,
+.nav-contact:hover {
+    color: #007BFF; /* Change color on hover */
+}

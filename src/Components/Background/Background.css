@@ -1,0 +1,19 @@
+.background {
+    height: 100vh; /* Set the height to the viewport height */
+    width: 100vw;  /* Set the width to the viewport width */
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    object-fit: cover;  /* Ensures the image/video fills the container without distortion */
+    z-index: -1;
+    padding: 0; 
+}
+
+@keyframes FadeIn{
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.fade-in{
+    animation: fadeIn 500ms ease-in-out;
+}
