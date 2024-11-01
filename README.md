@@ -20,3 +20,13 @@ This is a landing page website for Lamborghini cars featuring dynamic background
    git clone https://github.com/karthikeyan-dev3/lamborghini_landing_page.git
 
    cd your-lamborghini_landing_page
+
+
+# Technologies Used
+
+   React.js: For building reusable components and efficient rendering.
+   HTML5: For structuring the content.
+   CSS3: For styling and responsive design.
+   JavaScript: For adding interactivity.
+
+  
